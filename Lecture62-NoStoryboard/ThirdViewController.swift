@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ThirdViewController.swift
 //  Lecture62-NoStoryboard
 //
 //  Created by Felix Barros on 12/17/15.
@@ -8,15 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
+class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
