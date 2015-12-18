@@ -14,7 +14,32 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Cbx-Du-jbD">
+                    <rect key="frame" x="258" y="260" width="83" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ida-Ef-Kcn">
+                            <rect key="frame" x="25" y="0.0" width="34" height="30"/>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="JRV-To-A7Y"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOA-Kg-a9F">
+                            <rect key="frame" x="0.0" y="50" width="83" height="30"/>
+                            <state key="normal" title="Go to Green"/>
+                            <connections>
+                                <action selector="goToGreen:" destination="-1" eventType="touchUpInside" id="4bb-Oq-1Lr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
             <color key="backgroundColor" red="0.98431372549999996" green="0.77647058820000003" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Cbx-Du-jbD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6To-Aw-bcb"/>
+                <constraint firstItem="Cbx-Du-jbD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Kx9-jy-qeR"/>
+            </constraints>
         </view>
     </objects>
 </document>

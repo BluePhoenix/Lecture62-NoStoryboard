@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    var thirdViewController: ThirdViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +24,12 @@ class SecondViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func goBack(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
-    */
 
+    @IBAction func goToGreen(sender: AnyObject) {
+        presentViewController(thirdViewController, animated: true, completion: nil)
+    }
+    
 }

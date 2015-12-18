@@ -14,7 +14,25 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KXp-Ud-VRk">
+                    <rect key="frame" x="283" y="285" width="34" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEd-MS-ql2">
+                            <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
+                            <state key="normal" title="Back"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="EHd-5e-2sG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
             <color key="backgroundColor" red="0.62380522490000001" green="0.82432389260000005" blue="0.63152968880000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="KXp-Ud-VRk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="B02-Tw-Vsc"/>
+                <constraint firstItem="KXp-Ud-VRk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cU0-wg-mrZ"/>
+            </constraints>
         </view>
     </objects>
 </document>

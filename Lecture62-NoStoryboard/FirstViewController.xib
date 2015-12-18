@@ -21,10 +21,16 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7k-Uf-kKf">
                             <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
                             <state key="normal" title="Go Yellow"/>
+                            <connections>
+                                <action selector="goToYellow" destination="-1" eventType="touchUpInside" id="sDV-uZ-wCL"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLM-BG-SqY">
                             <rect key="frame" x="0.0" y="50" width="68" height="30"/>
                             <state key="normal" title="Go Green"/>
+                            <connections>
+                                <action selector="goToGreen" destination="-1" eventType="touchUpInside" id="NXJ-ve-nQ8"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>
