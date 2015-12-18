@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEA3C05E1C237D1F00F5602D"
+               BuildableName = "Lecture62-NoStoryboard.app"
+               BlueprintName = "Lecture62-NoStoryboard"
+               ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEA3C0721C237D1F00F5602D"
+               BuildableName = "Lecture62-NoStoryboardTests.xctest"
+               BlueprintName = "Lecture62-NoStoryboardTests"
+               ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CEA3C07D1C237D1F00F5602D"
+               BuildableName = "Lecture62-NoStoryboardUITests.xctest"
+               BlueprintName = "Lecture62-NoStoryboardUITests"
+               ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEA3C05E1C237D1F00F5602D"
+            BuildableName = "Lecture62-NoStoryboard.app"
+            BlueprintName = "Lecture62-NoStoryboard"
+            ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEA3C05E1C237D1F00F5602D"
+            BuildableName = "Lecture62-NoStoryboard.app"
+            BlueprintName = "Lecture62-NoStoryboard"
+            ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CEA3C05E1C237D1F00F5602D"
+            BuildableName = "Lecture62-NoStoryboard.app"
+            BlueprintName = "Lecture62-NoStoryboard"
+            ReferencedContainer = "container:Lecture62-NoStoryboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
